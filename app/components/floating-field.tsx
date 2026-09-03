@@ -39,12 +39,12 @@ export function FloatingField({
           setFocused(false);
           onBlur?.(event);
         }}
-        className={`h-[59px] w-full rounded border bg-transparent px-2 pt-5 pb-1 text-[17px] text-foreground outline-none ${borderColor} ${focused ? "border-2 px-[7px]" : ""}`}
+        className={`h-14.75 w-full rounded border bg-transparent px-2 pt-5 pb-1 text-[17px] text-foreground outline-none ${borderColor} ${focused ? "border-2 px-1.75" : ""}`}
       />
       
       <label
         htmlFor={id}
-        className={`pointer-events-none absolute left-2 transition-all duration-150 ${labelColor} ${raised ? "top-[9px] text-[13px]" : "top-[19px] text-[17px]"}`}
+        className={`pointer-events-none absolute left-2 transition-all duration-150 ${labelColor} ${raised ? "top-2.25 text-[13px]" : "top-4.75 text-[17px]"}`}
       >
         {label}
       </label>
